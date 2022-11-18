@@ -1,6 +1,8 @@
-function SkillListItem() {
+
+function SkillListItem({name, level}) {
+
     return(
-<li>SkillListItem</li>    
+    <li className='SkillListItem'>{name}<p className='level'>LEVEL {level}</p></li>    
     )
 }
 
